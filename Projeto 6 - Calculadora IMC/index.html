@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <main> -->
+    <section class="imagem">
+        <img src="/img/illustration.svg" alt="">
+    </section>
+
+    <form class="forms" id="form">
+        <!-- <div class="teste"> -->
+
+        <legend>Calculadora - IMC</legend>
+
+        <div class="container-input">
+            <label for="peso">Peso em Kg</label>
+            <input type="number" name="peso" id="peso" class="input" placeholder="Kg" required>
+            <span>
+
+            </span>
+        </div>
+
+
+        <div class="container-input">
+            <label for="altura">Altura em metros</label>
+            <input type="number" name="altura" id="altura" class="input" placeholder="m" required>
+        </div>
+        <!-- </div> -->
+
+        <button id="botao" class="botao">Calcular</button>
+        <!-- <input type="submit" value="Calcular" id="botao" class="botao"> mesma coisa -->
+
+        <div id="infos">
+            <div id="resultado" class="resultado" >
+                <div class="imc" id="imc">
+                    <span id="value"></span>
+                    <span>seu imc</span>
+                </div>
+                <div id="description">
+                    <span>55</span>
+                </div>
+            </div>
+
+            <div class="hide" id="more_info">
+                <a href="#">mais informações sobre IMC
+            </div>
+
+        </div>
+    </form>
+
+    <!-- </main> -->
+</body>
+<script src="/index.js"></script>
+
+</html>
