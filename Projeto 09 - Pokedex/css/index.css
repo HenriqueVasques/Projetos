@@ -111,23 +111,12 @@ main{
     transition: box-shadow 0.2s ease-out;
 }
 
-.button_in{
-    box-shadow:inset -0.2em 0.2em 0px #222;
-    
-}
 
-.button_in:active{
-    box-shadow: inset 0em 0em 0px #222;
-    width: 44%;
-    font-size:0.85em; 
-} 
-
-
- .button_out{
+ .button{
     box-shadow: -0.2em 0.2em 0px #222, -0.3em 0.3em 0px #000000;
     
 }
-.button_out:active{
+.button:active{
     box-shadow: 0em 0em 0px #222;
     width: 44%;
     font-size:0.85em; 
